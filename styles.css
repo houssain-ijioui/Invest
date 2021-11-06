@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NVABAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 6px #00000030;
+    mix-blend-mode: hard-light;
+}
+
+nav #logo {
+    width: 160px;
+    height: 80px;
+    cursor: pointer;
+    margin: 0 0 0 30px;
+}
+
+nav li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    font: 20px/23px Montserrat;
+    margin: 0 0 0 25px;
+}
+
+nav button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #E25891;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 12px 0 0;
+    cursor: pointer;
+}
+
+
+/* MAIN TOP SECTION */
+section .first-sec {
+    display: flex;
+}
+
+.first-sec h1 {
+    margin: 50px 0 0 0;
+    text-align: center;
+    color: #991453;
+    font-size: 30px;
+}
+
+.first-sec h3 {
+    color: #747474;
+    font-size: 15px;
+    text-align: center;
+    margin: 25px 0 0 0; 
+}
+
+.first-sec img {
+    width: 80vh;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* MAIN SECOND SECTION */
+.second-sec {
+    display: flex;
+    background-color: #991453;
+    margin-top: 80px;
+    padding: 40px 40px 40px 70px;
+    color: #fff;
+}
+
+.left {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.second-sec .left h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 0 0 25px 0;
+    opacity: 0.8;
+}
+
+.second-sec .left h1 {
+    font-size: xx-large;
+    width: 400px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+}
+
+.second-sec .left h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin: 0 0 25px 0;
+}
+
+.second-sec .left button {
+    color: #FF2C82;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    box-shadow: -10px 10px 5px #00000029;
+    cursor: pointer;
+}
+
+
+.second-sec #one {
+    width: 220px;
+    height: 45px;
+    background: #fff;
+    box-shadow: -10px 10px 5px #00000029;
+    border: none;
+    border-radius: 8px;
+}
+
+.second-sec #two {
+    margin: 25px 0 0 50px;
+    width: 210px;
+    height: 35px;
+    background: #fff;
+    box-shadow: -10px 10px 5px #00000029;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+}
+
+.second-sec #three {
+    margin: 25px 0 0 30px;
+    width: 210px;
+    height: 35px;
+    background: #fff;
+    box-shadow: -10px 10px 5px #00000029;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+}
